@@ -3,5 +3,12 @@ Sistema de Control de versiones que nos permite rastrear los cambios que hemos
 hecho en un conjunto de archivos.
 
 Control de versiones:
+Sistema encargado de administrar los cambios realizados en programas de computadora
+o conjuntos de archivos.
+
 Repositorios:
+Coleccion de archivos de distintas versiones de un proyecto.
+
 Commits:
+Componentes basicos de la linea del tiempo de un proyecto de Git.
+Son como un registro o una foto del estado de un proyecto en um momento especifico.
