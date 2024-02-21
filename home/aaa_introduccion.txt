@@ -1,0 +1,7 @@
+Git:
+Sistema de Control de versiones que nos permite rastrear los cambios que hemos
+hecho en un conjunto de archivos.
+
+Control de versiones:
+Repositorios:
+Commits:
