@@ -38,3 +38,9 @@ Modified:
 Si la version del archivo contiene cambios que no son parte del repositorio y no se ha
 añadido al area de preparacion.
 
+Staged:
+Si la version del archivo contiene cambios que no son parte del repositorio pero fue añadida
+al area de preparacion.
+
+Committed:
+Si la version del archivo ya se encuentra en el directorio de Git.
