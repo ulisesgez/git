@@ -1,0 +1,32 @@
+Git Commit:
+El comando git commit se utiliza para confirmar los cambios realizados en el área de
+preparación (staging area) y crear una nueva instantánea en la historia del repositorio.
+
+Definición:
+git commit toma los cambios que han sido agregados al área de preparación mediante git add
+y los guarda permanentemente en la historia del repositorio como una nueva confirmación
+(commit). Cada confirmación incluye un mensaje que describe los cambios realizados.
+
+Ejemplo:
+Supongamos que has realizado cambios en algunos archivos y los has agregado al área de
+preparación utilizando git add. Ahora deseas confirmar estos cambios. Puedes usar
+git commit de la siguiente manera:
+
+$ git commit -m "Agregado un nuevo archivo y modificaciones en otros archivos"
+
+Este comando crea una nueva confirmación con un mensaje descriptivo que indica los
+cambios realizados. La opción -m se utiliza para especificar un mensaje en línea para
+la confirmación. Es importante proporcionar un mensaje significativo que describa los
+cambios realizados en esta confirmación.
+
+Si deseas incluir todos los archivos modificados en el área de preparación en la
+confirmación, puedes usar la opción -a:
+
+$ git commit -a -m "Realizados cambios en varios archivos"
+
+Esto agregará automáticamente todos los archivos modificados al área de preparación
+y los confirmará en una nueva instantánea en la historia del repositorio con el
+mensaje especificado.
+
+Después de confirmar los cambios, estos se guardarán en el historial de tu repositorio
+y podrás verlos utilizando comandos como git log para revisar la historia de confirmaciones.

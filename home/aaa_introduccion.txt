@@ -11,7 +11,14 @@ Coleccion de archivos de distintas versiones de un proyecto.
 
 Commits:
 Componentes basicos de la linea del tiempo de un proyecto de Git.
-Son como un registro o una foto del estado de un proyecto en um momento especifico.
+Son como un registro o una "foto" del estado de un proyecto en um momento especifico.
+Git le asigna a cada Commit un identificador unico llamado SHA(Secure Hash Algorithm) o hash.
+
+SHA:
+Identifica:
+- Los cambios realizados.
+- Donde se realizaron los cambios.
+- Quien realizo los cambios.
 
 Areas en Git:
 - Directorio de Trabajo.
