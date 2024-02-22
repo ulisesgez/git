@@ -63,6 +63,6 @@ Esto configura la autocorrección para comandos mal escritos a nivel global. Con
 configuración, si escribes un comando de Git mal escrito, Git intentará corregirlo
 automáticamente.
 
-Estos son solo algunos ejemplos adicionales de cómo puedes usar git config para configurar
+Estos son solo algunos ejemplos de cómo puedes usar git config para configurar
 tu entorno de Git de manera más personalizada y eficiente. Puedes explorar más opciones
 y configuraciones en la documentación de Git o mediante git help config.
