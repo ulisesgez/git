@@ -1,0 +1,68 @@
+Git Config:
+El comando git config se utiliza para configurar la información del usuario de Git,
+así como las preferencias y opciones específicas del repositorio.
+
+Definición:
+git config permite configurar opciones específicas de Git a nivel de usuario (global),
+a nivel de repositorio o a nivel de sistema.
+
+Ejemplo:
+Aquí hay algunos ejemplos de cómo se puede utilizar git config:
+
+Configuración del nombre de usuario y correo electrónico:
+
+$ git config --global user.name "Tu Nombre"
+$ git config --global user.email "tu@correo.com"
+
+Esto configura tu nombre de usuario y correo electrónico a nivel global, lo que significa
+que se aplicará a todos los repositorios de Git en tu sistema.
+
+Configuración de alias de comando:
+
+$ git config --global alias.co checkout
+$ git config --global alias.br branch
+
+Esto configura alias para comandos de Git, lo que te permite utilizar atajos más cortos.
+Por ejemplo, después de ejecutar estos comandos, puedes usar git co en lugar de git checkout.
+
+Configuración de la plantilla del mensaje de confirmación:
+
+$ git config --global commit.template ~/.gitmessage.txt
+
+Esto configura una plantilla de mensaje de confirmación a nivel global, que se utilizará
+automáticamente cada vez que realices una confirmación (git commit).
+
+Configuración de la plantilla de mensaje de confirmación a nivel de repositorio:
+
+$ git config commit.template .gitmessage.txt
+
+Esto configura una plantilla de mensaje de confirmación a nivel de repositorio específico,
+que se utilizará automáticamente cada vez que realices una confirmación en ese repositorio
+en particular.
+
+Configuración del editor de texto preferido para editar mensajes de confirmación:
+
+$ git config --global core.editor "nano"
+
+Esto configura el editor de texto preferido para editar mensajes de confirmación a nivel
+global. Puedes cambiar "nano" por el nombre de tu editor de texto preferido, como "vim",
+"emacs", "subl", etc.
+
+Configuración de la visualización de ramas y confirmaciones en la salida de Git:
+
+$ git config --global log.decorate true
+
+Esto activa la visualización de colores y adornos en la salida de Git, lo que hace que la
+salida de comandos como git log sea más fácil de leer y entender.
+
+Configuración de la autocorrección para comandos mal escritos:
+
+$ git config --global help.autocorrect 1
+
+Esto configura la autocorrección para comandos mal escritos a nivel global. Con esta
+configuración, si escribes un comando de Git mal escrito, Git intentará corregirlo
+automáticamente.
+
+Estos son solo algunos ejemplos adicionales de cómo puedes usar git config para configurar
+tu entorno de Git de manera más personalizada y eficiente. Puedes explorar más opciones
+y configuraciones en la documentación de Git o mediante git help config.
