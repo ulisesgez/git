@@ -1,0 +1,34 @@
+Git Log:
+El comando git log se utiliza para ver la historia de confirmaciones (commits) en un
+repositorio de Git. Muestra una lista de confirmaciones en orden cronológico inverso,
+es decir, desde la más reciente hasta la más antigua.
+
+Definición:
+git log muestra la lista de confirmaciones en el repositorio junto con detalles como el autor,
+la fecha y la hora de la confirmación, y el mensaje asociado con cada confirmación.
+Esto proporciona una visión general de la evolución del proyecto a lo largo del tiempo.
+
+Ejemplo:
+Cuando ejecutas git log, verás una salida similar a la siguiente:
+commit 4ea9a65bc6d3fb4c1c26866f49f8eab8e0a39a8d
+Author: John Doe <john@example.com>
+Date:   Mon Feb 14 10:30:00 2024 -0500
+
+    Fixed issue #123: Updated login form styling
+
+commit b92c1f8d47b19e81464fd802c5917b8c1c7a12a9
+Author: Jane Smith <jane@example.com>
+Date:   Sat Feb 12 14:45:00 2024 -0500
+
+    Added new feature: User profile settings
+
+commit 2f7f4764e246ee7cb70c86bebc82fc23f2a9d73b
+Author: John Doe <john@example.com>
+Date:   Thu Feb 10 08:20:00 2024 -0500
+
+    Initial commit: Project setup
+
+Esta salida muestra tres confirmaciones, cada una con un hash único (commit),
+el autor de la confirmación, la fecha y la hora de la confirmación, y el mensaje
+asociado con la misma. Puedes desplazarte hacia abajo para ver más confirmaciones,
+y para salir del registro, puedes presionar la tecla q.
