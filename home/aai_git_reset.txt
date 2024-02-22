@@ -1,0 +1,47 @@
+Git Reset:
+El comando git reset se utiliza para deshacer cambios en el repositorio de Git.
+Puede ser usado para retroceder cambios en el área de preparación (staging area),
+mover la cabeza (HEAD) a una confirmación anterior, o incluso deshacer cambios en el
+directorio de trabajo.
+
+Definición:
+git reset permite deshacer cambios en diferentes partes del repositorio, como el área de
+preparación, la cabeza (HEAD) y el directorio de trabajo.
+
+Ejemplos:
+Aquí hay algunos usos comunes de git reset:
+
+Deshacer cambios en el área de preparación:
+
+Si has agregado cambios al área de preparación pero deseas sacarlos de allí sin perder los
+cambios en el directorio de trabajo, puedes usar:
+
+$ git reset HEAD archivo_modificado.txt
+
+Esto sacará archivo_modificado.txt del área de preparación y lo dejará en el estado
+modificado en el directorio de trabajo.
+
+Retroceder la cabeza (HEAD) a una confirmación anterior:
+
+Si deseas deshacer una o más confirmaciones y retroceder la cabeza (HEAD) a una confirmación
+anterior, puedes usar:
+
+$ git reset --hard HEAD~1
+
+Esto retrocederá la cabeza (HEAD) un paso atrás (una confirmación anterior) y eliminará
+todos los cambios realizados en confirmaciones posteriores.
+
+Desvincular la cabeza (HEAD) de una rama específica:
+
+Si deseas mover la cabeza (HEAD) a una confirmación específica sin afectar el área de
+preparación o el directorio de trabajo, puedes usar:
+
+$ git reset --soft HEAD~1
+
+Esto moverá la cabeza (HEAD) a una confirmación anterior mientras mantiene los cambios en
+el área de preparación y en el directorio de trabajo.
+
+Recuerda que git reset puede tener efectos drásticos en el historial del repositorio,
+especialmente cuando se utiliza con la opción --hard, ya que puede eliminar confirmaciones
+y cambios de forma permanente. Es importante usarlo con precaución y asegurarse de
+comprender completamente sus efectos antes de ejecutarlo.
