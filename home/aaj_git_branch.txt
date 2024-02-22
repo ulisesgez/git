@@ -1,0 +1,55 @@
+Git Branch:
+El comando git branch se utiliza para listar, crear o eliminar ramas en un repositorio de Git.
+También puede ser usado para renombrar ramas y establecer una rama por defecto.
+
+Definición:
+git branch permite administrar las ramas en un repositorio de Git. Puede ser usado para
+listar las ramas existentes, crear nuevas ramas, eliminar ramas, renombrar ramas y
+establecer una rama por defecto.
+
+Ejemplos:
+Aquí tienes algunos ejemplos de cómo puedes usar git branch:
+
+Listar todas las ramas:
+
+$ git branch
+
+Esto mostrará una lista de todas las ramas en el repositorio, indicando cuál es la rama
+actual (la rama en la que te encuentras actualmente).
+
+Crear una nueva rama:
+
+$ git branch nueva_rama
+
+Esto creará una nueva rama llamada nueva_rama en el repositorio, pero no cambiará tu
+posición actual. La nueva rama será creada desde el commit actual.
+
+Cambiar a una rama existente:
+
+$ git checkout nombre_rama
+
+Esto te cambiará a la rama especificada (nombre_rama) y actualizará el directorio de
+trabajo para reflejar el estado de esa rama.
+
+Eliminar una rama:
+
+$ git branch -d nombre_rama
+
+Esto eliminará la rama especificada (nombre_rama) del repositorio. Ten en cuenta que no
+podrás eliminar la rama en la que te encuentras actualmente.
+
+Renombrar una rama:
+
+$ git branch -m nombre_viejo nombre_nuevo
+
+Esto renombrará la rama especificada (nombre_viejo) con el nombre especificado (nombre_nuevo).
+
+Establecer una rama por defecto:
+
+$ git branch -m nombre_rama
+
+Esto cambiará la rama actual (nombre_rama) a la rama por defecto. Todos los nuevos
+commits se añadirán a esta rama por defecto.
+
+Estos son algunos de los usos comunes del comando git branch. Puedes explorar más
+opciones y funcionalidades en la documentación de Git o mediante git branch --help.
