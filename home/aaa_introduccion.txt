@@ -6,7 +6,7 @@ Control de versiones:
 Sistema encargado de administrar los cambios realizados en programas de computadora
 o conjuntos de archivos.
 
-Repositorios:
+Repositories:
 Coleccion de archivos de distintas versiones de un proyecto.
 
 Commits:
@@ -19,6 +19,9 @@ Identifica:
 - Los cambios realizados.
 - Donde se realizaron los cambios.
 - Quien realizo los cambios.
+
+Branches:
+Una rama en git es una linea independiente de desarrollo en el repositorio.
 
 Areas en Git:
 - Directorio de Trabajo.
