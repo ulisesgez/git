@@ -12,3 +12,13 @@ Coleccion de archivos de distintas versiones de un proyecto.
 Commits:
 Componentes basicos de la linea del tiempo de un proyecto de Git.
 Son como un registro o una foto del estado de un proyecto en um momento especifico.
+
+Areas en Git:
+- Directorio de Trabajo.
+- Area de preparacion.
+- Repositorio.
+
+Directorio de Trabajo:
+La carpeta del proyecto que contiene los archivos y el directorio .git del
+repositorio.
+
