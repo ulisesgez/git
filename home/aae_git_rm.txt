@@ -1,0 +1,26 @@
+Git Rm:
+El comando git rm se utiliza para eliminar archivos del área de trabajo y del índice de Git.
+Esto significa que Git dejará de rastrear los archivos y los eliminará de forma permanente
+de la próxima confirmación (commit).
+
+Git rm es utilizado para eliminar archivos del directorio de trabajo y del índice de Git.
+Esto significa que Git dejará de rastrear los archivos y los eliminará de forma permanente
+del historial de confirmaciones.
+
+Ejemplo:
+Supongamos que deseas eliminar un archivo llamado file.txt de tu repositorio.
+Puedes hacerlo de la siguiente manera:
+
+$ git rm file.txt
+
+Este comando eliminará file.txt del directorio de trabajo y del índice de Git.
+Si el archivo ya ha sido confirmado en el repositorio, también se eliminará de la
+próxima confirmación cuando ejecutes git commit.
+
+Si solo deseas dejar de rastrear un archivo sin eliminarlo del sistema de archivos,
+puedes usar la opción --cached:
+
+$ git rm --cached file.txt
+
+Esto mantendrá el archivo en el sistema de archivos pero lo eliminará del índice de Git,
+lo que significa que ya no se rastreará ni se incluirá en futuras confirmaciones.
