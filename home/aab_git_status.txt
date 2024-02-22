@@ -1,0 +1,29 @@
+Git Status:
+El comando git status es utilizado para mostrar el estado actual del repositorio de Git.
+Proporciona información sobre los archivos modificados, los archivos que están en el
+área de preparación (staging area), y los archivos que no están siendo rastreados por Git.
+
+Git status muestra información sobre los cambios en el directorio de trabajo que aún
+no se han agregado al área de preparación, los cambios en el área de preparación que aún
+no se han confirmado y los archivos no rastreados.
+
+Ejemplo:
+Supongamos que has realizado algunos cambios en un repositorio y aún no has confirmado
+esos cambios. Al ejecutar git status, obtendrás un resumen de los cambios no confirmados,
+así como los archivos que están listos para ser confirmados.
+
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   file1.txt
+	modified:   file2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Este ejemplo muestra que hay modificaciones en los archivos file1.txt y file2.txt que aún
+no se han agregado al área de preparación para su confirmación.
