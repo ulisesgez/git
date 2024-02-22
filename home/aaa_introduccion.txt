@@ -22,3 +22,19 @@ Directorio de Trabajo:
 La carpeta del proyecto que contiene los archivos y el directorio .git del
 repositorio.
 
+Area de preparacion:
+conjunto de archivos y cambios que seran incluidos en el proximo Commit.
+
+Repositorio:
+Directorio que contiene los metadatos y las versiones de tu proyecto.
+Es la parte del repositorio que se copia cuando clonas un repositorio a tu computadora.
+
+Estados de los archivos:
+Directorio de Trabajo --> modified
+Area de preparacion --> staged
+Repositorio --> committed
+
+Modified:
+Si la version del archivo contiene cambios que no son parte del repositorio y no se ha
+añadido al area de preparacion.
+
