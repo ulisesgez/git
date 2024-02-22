@@ -30,3 +30,40 @@ mensaje especificado.
 
 Después de confirmar los cambios, estos se guardarán en el historial de tu repositorio
 y podrás verlos utilizando comandos como git log para revisar la historia de confirmaciones.
+
+Con git commit --amend modifica la confirmación más reciente reemplazándola con una nueva
+confirmación que incluye los cambios en el área de preparación, y opcionalmente, un nuevo
+mensaje de confirmación.
+
+Modificar el mensaje de confirmación:
+
+$ git commit --amend -m "Nuevo mensaje de confirmación"
+
+Este comando modifica la confirmación más reciente y reemplaza el mensaje de confirmación
+con el texto proporcionado.
+
+Agregar cambios olvidados:
+
+Supongamos que olvidaste incluir algunos archivos en la confirmación anterior.
+Puedes agregarlos al área de preparación y luego ejecutar git commit --amend:
+
+$ git add archivo_olvidado.txt
+$ git commit --amend
+
+Esto agregará los cambios del archivo olvidado a la confirmación más reciente.
+
+Modificar archivos en la confirmación:
+
+Si necesitas hacer cambios en los archivos incluidos en la confirmación más reciente,
+primero debes realizar los cambios en el directorio de trabajo y luego agregar esos cambios
+al área de preparación. Después, ejecutas git commit --amend:
+
+$ git add archivo_modificado.txt
+$ git commit --amend
+
+Esto actualizará la confirmación más reciente con los cambios realizados en el
+archivo modificado.
+
+Es importante tener en cuenta que git commit --amend modifica la confirmación más reciente
+y reemplaza su historial. Por lo tanto, debes usarlo con precaución, especialmente si la
+confirmación ya ha sido compartida con otros colaboradores del proyecto.
