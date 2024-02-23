@@ -32,3 +32,25 @@ Esta salida muestra tres confirmaciones, cada una con un hash único (commit),
 el autor de la confirmación, la fecha y la hora de la confirmación, y el mensaje
 asociado con la misma. Puedes desplazarte hacia abajo para ver más confirmaciones,
 y para salir del registro, puedes presionar la tecla q.
+
+El comando git log --oneline se utiliza para mostrar el historial de confirmaciones
+de Git de forma simplificada, mostrando cada confirmación en una sola línea, con el hash
+de confirmación y el mensaje de confirmación.
+
+Aquí está el ejemplo de cómo se utiliza:
+
+$ git log --oneline
+
+Esto mostrará el historial de confirmaciones en una sola línea para el repositorio actual.
+La salida será similar a la siguiente:
+
+abcd123 Mensaje de confirmación 1
+efgh456 Mensaje de confirmación 2
+ijkl789 Mensaje de confirmación 3
+
+Donde abcd123, efgh456, ijkl789 son los hashes abreviados de las confirmaciones y
+Mensaje de confirmación 1, Mensaje de confirmación 2, Mensaje de confirmación 3 son
+los mensajes asociados con cada confirmación.
+
+Esta forma condensada de mostrar el historial de confirmaciones es útil cuando necesitas
+una vista rápida y simplificada del historial del repositorio.
