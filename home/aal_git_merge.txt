@@ -1,0 +1,28 @@
+Git Merge:
+El comando git merge se utiliza para fusionar una rama con otra rama activa.
+La fusión combina los cambios de una rama en otra.
+
+Git merge fusiona los cambios de una rama específica en la rama activa (generalmente la
+rama en la que te encuentras actualmente). Esto combina el historial de confirmaciones
+de ambas ramas en una sola rama.
+
+Aquí tienes un ejemplo básico de cómo se usa git merge:
+Supongamos que estás en la rama feature y quieres fusionarla con la rama main:
+
+Primero, asegúrate de estar en la rama main:
+
+$ git checkout main
+
+Luego, ejecuta el comando git merge seguido del nombre de la rama que deseas fusionar
+(en este caso, feature):
+
+$ git merge feature
+
+Después de ejecutar este comando, Git intentará fusionar los cambios de la rama feature
+en la rama main. Si hay conflictos de fusión, Git detendrá el proceso y te pedirá que
+los resuelvas manualmente. Una vez resueltos los conflictos y completada la fusión,
+tendrás un nuevo commit en la rama main que incorpora los cambios de la rama feature.
+
+Es importante tener en cuenta que la fusión puede generar conflictos si hay cambios
+conflictivos en las mismas partes de los archivos en ambas ramas. En ese caso, deberás
+resolver los conflictos manualmente antes de completar la fusión.
