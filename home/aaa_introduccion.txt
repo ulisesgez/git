@@ -7,25 +7,25 @@ Sistema encargado de administrar los cambios realizados en programas de computad
 o conjuntos de archivos.
 
 Repositories:
-Coleccion de archivos de distintas versiones de un proyecto.
+Colección de archivos de distintas versiones de un proyecto.
 
 Commits:
-Componentes basicos de la linea del tiempo de un proyecto de Git.
-Son como un registro o una "foto" del estado de un proyecto en um momento especifico.
-Git le asigna a cada Commit un identificador unico llamado SHA(Secure Hash Algorithm) o hash.
+Componentes básicos de la línea del tiempo de un proyecto de Git.
+Son como un registro o una "foto" del estado de un proyecto en un momento específico.
+Git le asigna a cada Commit un identificador único llamado SHA(Secure Hash Algorithm) o hash.
 
 SHA:
 Identifica:
 - Los cambios realizados.
 - Donde se realizaron los cambios.
-- Quien realizo los cambios.
+- Quien realizó los cambios.
 
 Branches:
-Una rama en git es una linea independiente de desarrollo en el repositorio.
+Una rama en git es una línea independiente de desarrollo en el repositorio.
 
 Areas en Git:
 - Directorio de Trabajo.
-- Area de preparacion.
+- Área de preparación.
 - Repositorio.
 
 Directorio de Trabajo:
@@ -33,7 +33,7 @@ La carpeta del proyecto que contiene los archivos y el directorio .git del
 repositorio.
 
 Area de preparacion:
-conjunto de archivos y cambios que seran incluidos en el proximo Commit.
+conjunto de archivos y cambios que serán incluidos en el próximo Commit.
 
 Repositorio:
 Directorio que contiene los metadatos y las versiones de tu proyecto.
@@ -45,18 +45,18 @@ Area de preparacion --> staged
 Repositorio --> committed
 
 Modified:
-Si la version del archivo contiene cambios que no son parte del repositorio y no se ha
-añadido al area de preparacion.
+Si la versión del archivo contiene cambios que no son parte del repositorio y no se ha
+añadido al área de preparación.
 
 Staged:
-Si la version del archivo contiene cambios que no son parte del repositorio pero fue añadida
-al area de preparacion.
+Si la versión del archivo contiene cambios que no son parte del repositorio pero fue añadida
+al área de preparación.
 
 Committed:
-Si la version del archivo ya se encuentra en el directorio de Git.
+Si la versión del archivo ya se encuentra en el directorio de Git.
 
 Merge:
-Proceso que permite combinar varias lineas independientes de desarrollo en una sola rama.
+Proceso que permite combinar varias líneas independientes de desarrollo en una sola rama.
 
 Git Hub:
 Servicio de hosting que nos permite almacenar proyectos de desarrollo de software y
@@ -66,8 +66,8 @@ Clonar:
 Crear una copia local de un repositorio remoto, incluyendo sus versiones e historial de commits.
 
 Origin:
-Nombre que conmunmente le asignamos al repositorio remoto que clonamos.
+Nombre que comúnmente le asignamos al repositorio remoto que clonamos.
 
 Push:
 Comando usado para enviar los cambios realizados en un repositorio local a un repositorio
-remoto para que ambos tengan la misma informacion.
+remoto para que ambos tengan la misma información.
