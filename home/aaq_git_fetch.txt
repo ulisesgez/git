@@ -1,0 +1,27 @@
+Git Fetch:
+El comando git fetch se utiliza para recuperar los cambios del repositorio remoto a tu
+repositorio local. Sin embargo, a diferencia de git pull, git fetch no fusiona
+automáticamente estos cambios con tu rama local. En su lugar, actualiza los punteros
+de las ramas remotas en tu repositorio local para que reflejen el estado actual del
+repositorio remoto.
+
+Git fetch descarga los cambios desde el repositorio remoto al repositorio local,
+pero no los fusiona automáticamente con tu rama local. Actualiza los punteros de las ramas
+remotas en tu repositorio local para reflejar el estado actual del repositorio remoto.
+
+Ejemplo:
+Para recuperar los cambios del repositorio remoto sin fusionarlos automáticamente,
+simplemente ejecuta:
+
+$ git fetch
+
+Esto descargará todos los cambios del repositorio remoto al repositorio local,
+pero no afectará tu directorio de trabajo ni la rama actual en tu repositorio local.
+
+Después de ejecutar git fetch, puedes ver los cambios descargados utilizando git log o
+git diff, y luego decidir si deseas fusionarlos manualmente utilizando git merge o git
+rebase, o simplemente inspeccionar los cambios antes de tomar alguna acción adicional.
+
+
+
+

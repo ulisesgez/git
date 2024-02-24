@@ -68,10 +68,14 @@ Crear una copia local de un repositorio remoto, incluyendo sus versiones e histo
 Origin:
 Nombre que comúnmente le asignamos al repositorio remoto que clonamos.
 
+Push:
+Comando usado para enviar los cambios realizados en un repositorio local a un repositorio
+remoto para que ambos tengan la misma información.
+
 Pull:
 Comando usado para descargar el contenido de un repositorio remoto e inmediatamente actualizar
 un repositorio local para que ambos tengan la misma información.
 
-Push:
-Comando usado para enviar los cambios realizados en un repositorio local a un repositorio
-remoto para que ambos tengan la misma información.
+Fetch:
+Comand usado para verificar los cambios realizados en el repositorio remoto sin combinar
+esos cambios con el repositorio local.
