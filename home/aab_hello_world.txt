@@ -1,2 +1,2 @@
 ¡Hello World!
-"Mi primer repositorio en Git!
+My first Git repository!
