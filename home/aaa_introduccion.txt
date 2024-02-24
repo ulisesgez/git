@@ -64,3 +64,10 @@ control de versiones usando Git.
 
 Clonar:
 Crear una copia local de un repositorio remoto, incluyendo sus versiones e historial de commits.
+
+Origin:
+Nombre que conmunmente le asignamos al repositorio remoto que clonamos.
+
+Push:
+Comando usado para enviar los cambios realizados en un repositorio local a un repositorio
+remoto para que ambos tengan la misma informacion.

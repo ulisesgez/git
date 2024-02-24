@@ -1,0 +1,28 @@
+Git Push:
+Git push es un comando fundamental en Git que se utiliza para subir, o "empujar",
+los cambios locales de una rama a un repositorio remoto. Esto es esencial para colaborar
+en proyectos compartidos y mantener sincronizados los repositorios locales y remotos.
+
+Git push envía los cambios locales de una rama a un repositorio remoto. Los cambios se
+añaden al historial del repositorio remoto y están disponibles para que otros colaboradores
+los descarguen.
+
+Ejemplo:
+Para enviar tus cambios locales a un repositorio remoto, simplemente ejecuta:
+
+$ git push
+
+Este comando enviará los cambios locales de tu rama actual al repositorio remoto asociado.
+Si es la primera vez que estás enviando cambios a este repositorio remoto, es posible que
+necesites especificar la rama remota y el nombre de la rama local explícitamente:
+
+$ git push origin nombre_rama_local:nombre_rama_remota
+
+Donde nombre_rama_local es el nombre de la rama en tu repositorio local y nombre_rama_remota
+es el nombre de la rama en el repositorio remoto (por lo general, la misma que en tu
+repositorio local).
+
+Recuerda que necesitas tener los permisos adecuados para poder hacer push a un repositorio
+remoto. Si estás trabajando en un proyecto colaborativo y no tienes permisos de escritura
+en el repositorio remoto, es posible que necesites enviar una solicitud de pull request en
+lugar de hacer un push directo.

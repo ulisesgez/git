@@ -1,0 +1,19 @@
+Git Pull:
+El comando git pull se utiliza para recuperar los cambios desde un repositorio remoto y
+fusionarlos automáticamente con la rama local actual.
+
+Git pull combina dos pasos: git fetch, que recupera los cambios del repositorio remoto,
+y git merge, que fusiona esos cambios en la rama local actual.
+
+Ejemplo:
+Aquí está cómo usar git pull:
+
+$ git pull
+
+Este comando recuperará los cambios desde el repositorio remoto (por lo general,
+el repositorio desde el cual se clonó el repositorio local) y los fusionará automáticamente
+con la rama local actual.
+Es importante tener en cuenta que si hay conflictos de fusión, Git detendrá el proceso de
+fusión y te pedirá que los resuelvas manualmente. Después de resolver los conflictos,
+puedes completar la fusión utilizando git commit para crear un nuevo commit de fusión,
+o puedes abortar la fusión utilizando git merge --abort.
