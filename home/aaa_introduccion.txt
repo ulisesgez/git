@@ -77,5 +77,8 @@ Comando usado para descargar el contenido de un repositorio remoto e inmediatame
 un repositorio local para que ambos tengan la misma información.
 
 Fetch:
-Comand usado para verificar los cambios realizados en el repositorio remoto sin combinar
+Comando usado para verificar los cambios realizados en el repositorio remoto sin combinar
 esos cambios con el repositorio local.
+
+Fork:
+Bifurcar un repositorio es crear una copia de repositorio remoto en nuestra cuenta de Git Hub.
