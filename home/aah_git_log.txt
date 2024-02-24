@@ -32,3 +32,76 @@ Esta salida muestra tres confirmaciones, cada una con un hash único (commit),
 el autor de la confirmación, la fecha y la hora de la confirmación, y el mensaje
 asociado con la misma. Puedes desplazarte hacia abajo para ver más confirmaciones,
 y para salir del registro, puedes presionar la tecla q.
+
+El comando git log --oneline se utiliza para mostrar el historial de confirmaciones
+de Git de forma simplificada, mostrando cada confirmación en una sola línea, con el hash
+de confirmación y el mensaje de confirmación.
+
+Aquí está el ejemplo de cómo se utiliza:
+
+$ git log --oneline
+
+Esto mostrará el historial de confirmaciones en una sola línea para el repositorio actual.
+La salida será similar a la siguiente:
+
+abcd123 Mensaje de confirmación 1
+efgh456 Mensaje de confirmación 2
+ijkl789 Mensaje de confirmación 3
+
+Donde abcd123, efgh456, ijkl789 son los hashes abreviados de las confirmaciones y
+Mensaje de confirmación 1, Mensaje de confirmación 2, Mensaje de confirmación 3 son
+los mensajes asociados con cada confirmación.
+
+Esta forma condensada de mostrar el historial de confirmaciones es útil cuando necesitas
+una vista rápida y simplificada del historial del repositorio.
+
+El comando git log -p se utiliza para mostrar el historial de confirmaciones de Git
+junto con los cambios introducidos en cada confirmación. Este comando genera una
+salida detallada que incluye la lista de cambios en cada archivo modificado en cada
+confirmación.
+
+Aquí está el ejemplo de cómo se utiliza:
+
+$ git log -p
+
+Esto mostrará el historial de confirmaciones con los cambios introducidos en cada
+confirmación. La salida será similar a la siguiente:
+
+commit abcd123
+Author: Nombre <correo@ejemplo.com>
+Date:   Fecha de la confirmación
+
+    Mensaje de confirmación 1
+
+diff --git a/archivo1.txt b/archivo1.txt
+index 1234567..890abcd 100644
+--- a/archivo1.txt
++++ b/archivo1.txt
+@@ -1,2 +1,2 @@
+ Contenido anterior
+-Nueva línea
++Nueva línea modificada
+
+...
+
+commit efgh456
+Author: Nombre <correo@ejemplo.com>
+Date:   Fecha de la confirmación
+
+    Mensaje de confirmación 2
+
+diff --git a/archivo2.txt b/archivo2.txt
+index 123abcd..456efgh 100644
+--- a/archivo2.txt
++++ b/archivo2.txt
+@@ -1,3 +1,3 @@
+ Contenido anterior
+-Línea añadida
++Nueva línea añadida
+
+...
+
+Esto muestra cada confirmación (commit) con su autor, fecha y mensaje asociado,
+seguido por los cambios realizados en cada archivo modificado en esa confirmación.
+Los cambios están representados como diferencias (diffs) entre el estado anterior
+y el estado actual de cada archivo.
