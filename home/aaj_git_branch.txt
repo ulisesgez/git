@@ -2,8 +2,7 @@ Git Branch:
 El comando git branch se utiliza para listar, crear o eliminar ramas en un repositorio de Git.
 También puede ser usado para renombrar ramas y establecer una rama por defecto.
 
-Definición:
-git branch permite administrar las ramas en un repositorio de Git. Puede ser usado para
+Git branch permite administrar las ramas en un repositorio de Git. Puede ser usado para
 listar las ramas existentes, crear nuevas ramas, eliminar ramas, renombrar ramas y
 establecer una rama por defecto.
 

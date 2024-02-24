@@ -26,3 +26,27 @@ tendrás un nuevo commit en la rama main que incorpora los cambios de la rama fe
 Es importante tener en cuenta que la fusión puede generar conflictos si hay cambios
 conflictivos en las mismas partes de los archivos en ambas ramas. En ese caso, deberás
 resolver los conflictos manualmente antes de completar la fusión.
+
+El comando git merge --continue se utiliza para continuar con un proceso de fusión que ha
+sido detenido debido a conflictos de fusión. Después de resolver los conflictos de fusión
+manualmente, este comando finaliza el proceso de fusión y crea un nuevo commit para
+completar la fusión.
+
+Git merge --continue se utiliza para continuar con una fusión que ha sido detenida debido
+a conflictos de fusión después de resolver manualmente los conflictos. Este comando finaliza
+el proceso de fusión y crea un nuevo commit para completar la fusión.
+
+Ejemplo:
+Supongamos que estás realizando una fusión entre la rama feature y la rama main, pero la
+fusión se detiene debido a conflictos de fusión. Después de resolver manualmente los
+conflictos, puedes continuar el proceso de fusión con el siguiente comando:
+
+$ git merge --continue
+
+Después de ejecutar este comando, Git finalizará el proceso de fusión creando un nuevo
+commit que incorpora los cambios de la rama feature en la rama main, incluidas las
+resoluciones de conflictos que has realizado manualmente.
+
+Es importante tener en cuenta que este comando solo se usa después de resolver manualmente
+los conflictos de fusión. Si no has resuelto los conflictos, Git te pedirá que los resuelvas
+antes de permitirte continuar con git merge --continue.

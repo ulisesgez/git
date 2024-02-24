@@ -4,8 +4,7 @@ Puede ser usado para retroceder cambios en el área de preparación (staging are
 mover la cabeza (HEAD) a una confirmación anterior, o incluso deshacer cambios en el
 directorio de trabajo.
 
-Definición:
-git reset permite deshacer cambios en diferentes partes del repositorio, como el área de
+Git reset permite deshacer cambios en diferentes partes del repositorio, como el área de
 preparación, la cabeza (HEAD) y el directorio de trabajo.
 
 Ejemplos:

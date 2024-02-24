@@ -3,8 +3,7 @@ El comando git log se utiliza para ver la historia de confirmaciones (commits) e
 repositorio de Git. Muestra una lista de confirmaciones en orden cronológico inverso,
 es decir, desde la más reciente hasta la más antigua.
 
-Definición:
-git log muestra la lista de confirmaciones en el repositorio junto con detalles como el autor,
+Git log muestra la lista de confirmaciones en el repositorio junto con detalles como el autor,
 la fecha y la hora de la confirmación, y el mensaje asociado con cada confirmación.
 Esto proporciona una visión general de la evolución del proyecto a lo largo del tiempo.
 

@@ -2,8 +2,7 @@ Git Checkout:
 El comando git checkout se utiliza para cambiar entre ramas, restaurar archivos y trabajar
 con ramas y confirmaciones en un repositorio de Git.
 
-Definición:
-git checkout permite cambiar entre ramas, restaurar archivos y trabajar con ramas y
+Git checkout permite cambiar entre ramas, restaurar archivos y trabajar con ramas y
 confirmaciones en un repositorio de Git.
 
 Ejemplos:

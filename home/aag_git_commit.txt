@@ -2,8 +2,7 @@ Git Commit:
 El comando git commit se utiliza para confirmar los cambios realizados en el área de
 preparación (staging area) y crear una nueva instantánea en la historia del repositorio.
 
-Definición:
-git commit toma los cambios que han sido agregados al área de preparación mediante git add
+Git commit toma los cambios que han sido agregados al área de preparación mediante git add
 y los guarda permanentemente en la historia del repositorio como una nueva confirmación
 (commit). Cada confirmación incluye un mensaje que describe los cambios realizados.
 

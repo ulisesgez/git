@@ -2,8 +2,7 @@ Git Config:
 El comando git config se utiliza para configurar la información del usuario de Git,
 así como las preferencias y opciones específicas del repositorio.
 
-Definición:
-git config permite configurar opciones específicas de Git a nivel de usuario (global),
+Git config permite configurar opciones específicas de Git a nivel de usuario (global),
 a nivel de repositorio o a nivel de sistema.
 
 Ejemplo:
