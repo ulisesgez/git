@@ -57,3 +57,7 @@ Si la version del archivo ya se encuentra en el directorio de Git.
 
 Merge:
 Proceso que permite combinar varias lineas independientes de desarrollo en una sola rama.
+
+Git Hub:
+Servicio de hosting que nos permite almacenar proyectos de desarrollo de software y
+control de versiones usando Git.
