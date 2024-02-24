@@ -21,7 +21,3 @@ pero no afectará tu directorio de trabajo ni la rama actual en tu repositorio l
 Después de ejecutar git fetch, puedes ver los cambios descargados utilizando git log o
 git diff, y luego decidir si deseas fusionarlos manualmente utilizando git merge o git
 rebase, o simplemente inspeccionar los cambios antes de tomar alguna acción adicional.
-
-
-
-
