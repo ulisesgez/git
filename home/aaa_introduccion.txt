@@ -85,3 +85,7 @@ Bifurcar un repositorio es crear una copia de repositorio remoto en nuestra cuen
 
 Pull Requests:
 Solicitud de combinar tus cambios con el repositorio original del proyecto.
+
+Issues:
+problemas, tareas o incidencias que se registran para seguir y gestionar el progreso
+del trabajo en un proyecto.
