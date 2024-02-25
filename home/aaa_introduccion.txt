@@ -82,3 +82,6 @@ esos cambios con el repositorio local.
 
 Fork:
 Bifurcar un repositorio es crear una copia de repositorio remoto en nuestra cuenta de Git Hub.
+
+Pull Requests:
+Solicitud de combinar tus cambios con el repositorio original del proyecto.
