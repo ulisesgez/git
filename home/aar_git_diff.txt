@@ -24,3 +24,24 @@ $ git diff --cached archivo.txt
 
 Esto te mostrará las diferencias entre el archivo archivo.txt en el área de preparación
 (staging area) y la última versión confirmada en el repositorio.
+
+Tambien puedes usar este comando para ver qué cambios se han realizado en una rama
+en comparación con otra.
+
+Ejemplo:
+Supongamos que tienes dos ramas en tu repositorio Git: ramaA y ramaB, y deseas ver las
+diferencias entre ellas. Puedes usar el comando git diff de la siguiente manera:
+
+$ git diff ramaA ramaB
+
+Este comando mostrará las diferencias entre los puntos donde divergieron las
+ramas ramaA y ramaB. Te mostrará qué archivos han cambiado y cuáles son las diferencias
+específicas entre ellas.
+
+Si solo quieres ver las diferencias entre las ramas en los archivos que han sido
+modificados desde el punto donde se bifurcaron las ramas, puedes usar la bandera --stat:
+
+$ git diff --stat ramaA ramaB
+
+Esto te dará un resumen de los cambios en términos de qué archivos se han modificado
+y cuántas líneas han sido añadidas o eliminadas en cada uno.
