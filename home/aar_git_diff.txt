@@ -1,0 +1,26 @@
+Git Diff:
+Se utiliza en Git para mostrar las diferencias entre los cambios en archivos
+en diferentes commits, entre el área de trabajo y el índice (staging area),
+o entre el índice y el repositorio.
+
+Git diff es un comando de Git que muestra las diferencias entre archivos en
+diferentes estados, como cambios sin confirmar en el directorio de trabajo,
+cambios en el índice (staging area) y cambios entre commits.
+
+Ejemplo:
+Supongamos que tienes un archivo llamado archivo.txt en tu repositorio de Git
+y has realizado algunos cambios en él. Si deseas ver las diferencias entre
+el estado actual del archivo y la versión anterior, puedes usar el comando
+git diff de la siguiente manera:
+
+$ git diff archivo.txt
+
+Este comando mostrará las diferencias entre la versión actual del archivo archivo.txt
+en tu directorio de trabajo y la versión en el último commit. Si deseas ver
+las diferencias entre el archivo en el índice (staging area) y la última versión
+confirmada, puedes usar:
+
+$ git diff --cached archivo.txt
+
+Esto te mostrará las diferencias entre el archivo archivo.txt en el área de preparación
+(staging area) y la última versión confirmada en el repositorio.
