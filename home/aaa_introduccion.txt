@@ -1,91 +1,79 @@
-Git:
-Sistema de Control de versiones que nos permite rastrear los cambios que hemos
-hecho en un conjunto de archivos.
+Git
+Sistema de control de versiones que permite rastrear los cambios realizados en un conjunto de archivos.
+Es ampliamente utilizado para administrar proyectos de software y trabajar de forma colaborativa.
 
-Control de versiones:
-Sistema encargado de administrar los cambios realizados en programas de computadora
-o conjuntos de archivos.
+Control de versiones
+Sistema encargado de administrar los cambios realizados en programas de computadora o conjuntos de archivos,
+permitiendo mantener un historial de modificaciones y facilitar el trabajo en equipo.
 
-Repositories:
-Colección de archivos de distintas versiones de un proyecto.
+Repositorio (Repository)
+Directorio que contiene:
+- Los archivos del proyecto en sus diferentes versiones.
+- Metadatos del control de versiones. El repositorio se copia completamente al clonar un proyecto en tu computadora.
 
-Commits:
-Componentes básicos de la línea del tiempo de un proyecto de Git.
-Son como un registro o una "foto" del estado de un proyecto en un momento específico.
-Git le asigna a cada Commit un identificador único llamado SHA(Secure Hash Algorithm) o hash.
+Áreas en Git
+- Directorio de trabajo:
+    Carpeta donde se encuentran los archivos del proyecto y el directorio .git con los metadatos del repositorio.
 
-SHA:
-Identifica:
+- Área de preparación (Staging Area):
+    Conjunto de archivos y cambios seleccionados que serán incluidos en el próximo commit.
+
+- Repositorio:
+    Contiene los datos históricos del proyecto y las versiones de los archivos.
+
+Commits
+Un commit es como una "foto" del estado de un proyecto en un momento específico.
+- Es un registro básico en la línea del tiempo de Git.
+- Cada commit tiene un identificador único llamado SHA (Secure Hash Algorithm o hash).
+
+SHA
+El SHA identifica:
 - Los cambios realizados.
-- Donde se realizaron los cambios.
-- Quien realizó los cambios.
+- Dónde se realizaron los cambios.
+- Quién realizó los cambios.
 
-Branches:
-Una rama en git es una línea independiente de desarrollo en el repositorio.
+Branches (Ramas)
+Una rama es una línea independiente de desarrollo dentro de un repositorio, lo que permite trabajar en diferentes
+características o soluciones de forma aislada antes de fusionarlas con la línea principal de desarrollo.
 
-Areas en Git:
-- Directorio de Trabajo.
-- Área de preparación.
-- Repositorio.
+Estados de los Archivos
+- Directorio de Trabajo → Modified
+    El archivo contiene cambios que no forman parte del repositorio y no se ha añadido al área de preparación.
 
-Directorio de Trabajo:
-La carpeta del proyecto que contiene los archivos y el directorio .git del
-repositorio.
+- Área de Preparación → Staged
+El archivo contiene cambios que aún no están en el repositorio, pero han sido añadidos al área de preparación.
 
-Area de preparacion:
-conjunto de archivos y cambios que serán incluidos en el próximo Commit.
+- Repositorio → Committed
+    El archivo ya forma parte del repositorio y su versión está registrada en el historial de Git.
 
-Repositorio:
-Directorio que contiene los metadatos y las versiones de tu proyecto.
-Es la parte del repositorio que se copia cuando clonas un repositorio a tu computadora.
-
-Estados de los archivos:
-Directorio de Trabajo --> modified
-Area de preparacion --> staged
-Repositorio --> committed
-
-Modified:
-Si la versión del archivo contiene cambios que no son parte del repositorio y no se ha
-añadido al área de preparación.
-
-Staged:
-Si la versión del archivo contiene cambios que no son parte del repositorio pero fue añadida
-al área de preparación.
-
-Committed:
-Si la versión del archivo ya se encuentra en el directorio de Git.
-
-Merge:
+Merge
 Proceso que permite combinar varias líneas independientes de desarrollo en una sola rama.
 
-Git Hub:
-Servicio de hosting que nos permite almacenar proyectos de desarrollo de software y
-control de versiones usando Git.
 
-Clonar:
+
+GitHub
+Servicio de hosting que permite almacenar proyectos de desarrollo de software y control de versiones utilizando Git.
+
+Clonar
 Crear una copia local de un repositorio remoto, incluyendo sus versiones e historial de commits.
 
-Origin:
-Nombre que comúnmente le asignamos al repositorio remoto que clonamos.
+Origin
+Nombre comúnmente asignado al repositorio remoto que fue clonado.
 
-Push:
-Comando usado para enviar los cambios realizados en un repositorio local a un repositorio
-remoto para que ambos tengan la misma información.
+Push
+Comando para enviar los cambios realizados en un repositorio local a un repositorio remoto, manteniendo ambos sincronizados.
 
-Pull:
-Comando usado para descargar el contenido de un repositorio remoto e inmediatamente actualizar
-un repositorio local para que ambos tengan la misma información.
+Pull
+Comando para descargar el contenido de un repositorio remoto y actualizar inmediatamente el repositorio local.
 
-Fetch:
-Comando usado para verificar los cambios realizados en el repositorio remoto sin combinar
-esos cambios con el repositorio local.
+Fetch
+Comando para verificar los cambios realizados en un repositorio remoto, sin combinarlos directamente con el repositorio local.
 
-Fork:
-Bifurcar un repositorio es crear una copia de repositorio remoto en nuestra cuenta de Git Hub.
+Fork
+Crear una copia de un repositorio remoto en tu cuenta de GitHub, permitiendo realizar modificaciones de manera independiente.
 
-Pull Requests:
-Solicitud de combinar tus cambios con el repositorio original del proyecto.
+Pull Requests
+Solicitud para combinar los cambios realizados en tu repositorio con el repositorio original del proyecto.
 
-Issues:
-problemas, tareas o incidencias que se registran para seguir y gestionar el progreso
-del trabajo en un proyecto.
+Issues
+Herramienta para registrar problemas, tareas o incidencias y gestionar el progreso del trabajo en un proyecto.
