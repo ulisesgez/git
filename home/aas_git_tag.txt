@@ -1,0 +1,19 @@
+Git tag:
+En Git, una etiqueta (o tag) es una referencia que señala un punto específico en la historia del repositorio, generalmente utilizado para marcar versiones importantes del proyecto, como lanzamientos o hitos significativos.
+ATLASSIAN
+
+Tipos de etiquetas en Git:
+
+Etiquetas ligeras: Son simples punteros a un commit específico, sin información adicional.
+Etiquetas anotadas: Son objetos completos en la base de datos de Git que incluyen el nombre del autor, correo electrónico, fecha y un mensaje asociado. Además, pueden ser firmadas y verificadas con GPG.
+
+Ejemplo:
+
+Supongamos que has alcanzado un hito importante en tu proyecto y deseas marcarlo como la versión 1.0.0. Para crear una etiqueta anotada, puedes usar el siguiente comando:
+
+$git tag -a v1.0.0 -m "Versión 1.0.0"
+
+Este comando crea una etiqueta llamada v1.0.0 en el commit actual con el mensaje "Versión 1.0.0".
+
+Para ver todas las etiquetas existentes en tu repositorio, puedes ejecutar:
+$git tag
