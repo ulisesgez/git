@@ -27,3 +27,22 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 Este ejemplo muestra que hay modificaciones en los archivos file1.txt y file2.txt que aún
 no se han agregado al área de preparación para su confirmación.
+
+El comando git status -s (o git status --short) muestra el estado del directorio de trabajo
+y del área de preparación en un formato abreviado. A diferencia de git status, que proporciona
+información detallada, la opción -s presenta una salida más concisa y fácil de leer.
+
+En este formato abreviado, cada línea representa un archivo y su estado, indicado por dos
+columnas de caracteres:
+
+Primera columna: Indica el estado del archivo en el área de preparación (índice).
+Segunda columna: Indica el estado del archivo en el directorio de trabajo.
+Los posibles caracteres y sus significados son:
+
+M: Modificado (Modified)
+A: Añadido (Added)
+D: Eliminado (Deleted)
+R: Renombrado (Renamed)
+C: Copiado (Copied)
+?: No rastreado (Untracked)
+!: Ignorado (Ignored)
