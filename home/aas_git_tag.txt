@@ -16,4 +16,4 @@ $git tag -a v1.0.0 -m "Versión 1.0.0"
 Este comando crea una etiqueta llamada v1.0.0 en el commit actual con el mensaje "Versión 1.0.0".
 
 Para ver todas las etiquetas existentes en tu repositorio, puedes ejecutar:
-$git tag
+$git tag    
